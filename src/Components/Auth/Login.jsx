@@ -41,7 +41,7 @@ const LogIn = () => {
           <div className="container">
             <div className="leftsec"></div>
           </div>
-          <div class="login-container w-100">
+          <div className="login-container w-100">
             <form onSubmit={formik.handleSubmit} className="login-form">
               <Link>
                 <img className="puma" src={puma} alt="" />
